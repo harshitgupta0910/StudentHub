@@ -24,7 +24,6 @@ const Dashboard = () => {
         setLoading(false);
       }
     };
-
     getStudents();
   }, []);
 
@@ -37,6 +36,7 @@ const Dashboard = () => {
             Manage and view all students in the system
           </p>
         </div>
+
         
         {currentUser ? (
           <Link
@@ -55,6 +55,7 @@ const Dashboard = () => {
           </Link>
         )}
       </header>
+
 
       <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-md">
         <div className="flex">
@@ -82,6 +83,7 @@ const Dashboard = () => {
       )}
     </div>
   );
+  
 };
 
 export default Dashboard;
