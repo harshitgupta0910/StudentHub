@@ -2,7 +2,6 @@ import { useEffect } from 'react';
 import StudentForm from '../components/StudentForm';
 
 const AddStudent = () => {
-  // Log network activity for assignment requirement
   useEffect(() => {
     console.log('AddStudent component mounted - Check Network tab for Firebase authentication calls');
   }, []);

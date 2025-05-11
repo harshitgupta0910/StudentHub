@@ -27,7 +27,6 @@ function App() {
     return <Loading fullScreen />;
   }
 
-
   return (
     <AuthProvider>
       <Router>
